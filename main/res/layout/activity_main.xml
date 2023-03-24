@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camView"/>
+
+
+    <TextView
+        android:id="@+id/btReadings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="bt readings"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/angleResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btReadings"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="WAITING FOR ANGLE"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/biasModifierButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIAS"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bl test"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/biasModifierButton"/>
+
+
+</RelativeLayout>
