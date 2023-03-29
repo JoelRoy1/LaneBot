@@ -1,4 +1,5 @@
 ## LaneBot: A Lane Following EV3 robot built with LeJOS and OpenCV 
+<img src="LaneBot.jpg" width="400" height="500"/>
 
 ### Project Description 
 
